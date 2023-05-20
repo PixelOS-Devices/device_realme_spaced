@@ -173,5 +173,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# Wi-Fi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # Inherit the proprietary files
 include vendor/realme/spaced/BoardConfigVendor.mk
